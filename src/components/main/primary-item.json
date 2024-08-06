@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_main_primary_items",
+  "info": {
+    "displayName": "PrimaryItem",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primary_item__link": {
+      "type": "string"
+    },
+    "primary_item__price_new": {
+      "type": "decimal"
+    },
+    "primary_item__price_old": {
+      "type": "decimal"
+    },
+    "primary_item__price_symbol": {
+      "type": "string"
+    },
+    "primary_item__title": {
+      "type": "string"
+    }
+  }
+}

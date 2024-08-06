@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_main_main_tests",
+  "info": {
+    "displayName": "FirstSection",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "primary_offer__text": {
+      "type": "string"
+    },
+    "primary_offer_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "primary_offer__lead": {
+      "type": "string"
+    },
+    "btn_shop__link": {
+      "type": "string"
+    },
+    "btn_shop__text": {
+      "type": "string"
+    },
+    "primary__text": {
+      "type": "text"
+    }
+  }
+}
