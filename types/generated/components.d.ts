@@ -35,11 +35,33 @@ export interface MainPrimaryItem extends Schema.Component {
   };
 }
 
+export interface ProductInfoReview extends Schema.Component {
+  collectionName: 'components_product_info_reviews';
+  info: {
+    displayName: 'review';
+    icon: 'archive';
+  };
+  attributes: {};
+}
+
+export interface ProductInfoSpecification extends Schema.Component {
+  collectionName: 'components_product_info_specifications';
+  info: {
+    displayName: 'specification';
+    icon: 'bulletList';
+  };
+  attributes: {
+    specification: Attribute.String;
+  };
+}
+
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
       'main.main-test': MainMainTest;
       'main.primary-item': MainPrimaryItem;
+      'product-info.review': ProductInfoReview;
+      'product-info.specification': ProductInfoSpecification;
     }
   }
 }

@@ -977,7 +977,31 @@ export interface ApiProductProduct extends Schema.CollectionType {
         },
         number
       >;
-    specification: Attribute.Blocks &
+    preview: Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    isNew: Attribute.Boolean &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    manual: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    review: Attribute.Component<'product-info.review'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    specification: Attribute.Component<'product-info.specification'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

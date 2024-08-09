@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_info_specifications",
+  "info": {
+    "displayName": "specification",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "specification": {
+      "type": "string"
+    }
+  }
+}
