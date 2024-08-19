@@ -1,10 +1,10 @@
-import type { Schema, Attribute } from '@strapi/strapi';
+import type { Schema, Attribute } from "@strapi/strapi";
 
 export interface CategoryContentSectionContent extends Schema.Component {
-  collectionName: 'components_category_content_section_contents';
+  collectionName: "components_category_content_section_contents";
   info: {
-    displayName: 'sectionContent';
-    description: '';
+    displayName: "sectionContent";
+    description: "";
   };
   attributes: {
     tag: Attribute.String & Attribute.Required;
@@ -13,9 +13,9 @@ export interface CategoryContentSectionContent extends Schema.Component {
 }
 
 export interface CategoryContentItemsCategoryContent extends Schema.Component {
-  collectionName: 'components_category_content_items_category_contents';
+  collectionName: "components_category_content_items_category_contents";
   info: {
-    displayName: 'itemsCategoryContent';
+    displayName: "itemsCategoryContent";
   };
   attributes: {
     tag: Attribute.String & Attribute.Required;
@@ -30,10 +30,10 @@ export interface CategoryContentItemsCategoryContent extends Schema.Component {
 }
 
 export interface CategoryContentItemCategoryContent extends Schema.Component {
-  collectionName: 'components_category_content_item_category_contents';
+  collectionName: "components_category_content_item_category_contents";
   info: {
-    displayName: 'itemCategoryContentReverse';
-    description: '';
+    displayName: "itemCategoryContentReverse";
+    description: "";
   };
   attributes: {
     tag: Attribute.String & Attribute.Required;
@@ -46,10 +46,10 @@ export interface CategoryContentItemCategoryContent extends Schema.Component {
 }
 
 export interface CategoryContentHeadingContent extends Schema.Component {
-  collectionName: 'components_category_content_heading_contents';
+  collectionName: "components_category_content_heading_contents";
   info: {
-    displayName: 'headingContent';
-    description: '';
+    displayName: "headingContent";
+    description: "";
   };
   attributes: {
     title: Attribute.Text & Attribute.Required;
@@ -58,9 +58,9 @@ export interface CategoryContentHeadingContent extends Schema.Component {
 }
 
 export interface CategoryContentFaqContent extends Schema.Component {
-  collectionName: 'components_category_content_faq_contents';
+  collectionName: "components_category_content_faq_contents";
   info: {
-    displayName: 'faqContent';
+    displayName: "faqContent";
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
@@ -69,10 +69,10 @@ export interface CategoryContentFaqContent extends Schema.Component {
 }
 
 export interface CategoryContentCategoryListItems extends Schema.Component {
-  collectionName: 'components_category_content_category_list_items';
+  collectionName: "components_category_content_category_list_items";
   info: {
-    displayName: 'categoryListItemsReverse';
-    description: '';
+    displayName: "categoryListItemsReverse";
+    description: "";
   };
   attributes: {
     text: Attribute.Text & Attribute.Required;
@@ -80,10 +80,10 @@ export interface CategoryContentCategoryListItems extends Schema.Component {
 }
 
 export interface CategoryContentCategoryHeaderContent extends Schema.Component {
-  collectionName: 'components_category_content_category_header_contents';
+  collectionName: "components_category_content_category_header_contents";
   info: {
-    displayName: 'categoryHeaderContent';
-    description: '';
+    displayName: "categoryHeaderContent";
+    description: "";
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
@@ -93,11 +93,11 @@ export interface CategoryContentCategoryHeaderContent extends Schema.Component {
 }
 
 export interface MainPrimaryItem extends Schema.Component {
-  collectionName: 'components_main_primary_items';
+  collectionName: "components_main_primary_items";
   info: {
-    displayName: 'PrimaryItem';
-    icon: 'archive';
-    description: '';
+    displayName: "PrimaryItem";
+    icon: "archive";
+    description: "";
   };
   attributes: {
     primary_item__link: Attribute.String;
@@ -109,16 +109,16 @@ export interface MainPrimaryItem extends Schema.Component {
 }
 
 export interface MainMainTest extends Schema.Component {
-  collectionName: 'components_main_main_tests';
+  collectionName: "components_main_main_tests";
   info: {
-    displayName: 'FirstSection';
-    icon: 'cube';
-    description: '';
+    displayName: "FirstSection";
+    icon: "cube";
+    description: "";
   };
   attributes: {
     primary_offer__text: Attribute.String;
     primary_offer_image: Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios'
+      "images" | "files" | "videos" | "audios"
     >;
     primary_offer__lead: Attribute.String;
     btn_shop__link: Attribute.String;
@@ -128,10 +128,10 @@ export interface MainMainTest extends Schema.Component {
 }
 
 export interface ProductInfoSpecification extends Schema.Component {
-  collectionName: 'components_product_info_specifications';
+  collectionName: "components_product_info_specifications";
   info: {
-    displayName: 'specification';
-    icon: 'bulletList';
+    displayName: "specification";
+    icon: "bulletList";
   };
   attributes: {
     specification: Attribute.String;
@@ -139,19 +139,19 @@ export interface ProductInfoSpecification extends Schema.Component {
 }
 
 export interface ProductInfoReview extends Schema.Component {
-  collectionName: 'components_product_info_reviews';
+  collectionName: "components_product_info_reviews";
   info: {
-    displayName: 'review';
-    icon: 'archive';
+    displayName: "review";
+    icon: "archive";
   };
   attributes: {};
 }
 
 export interface AboutContentPostListItems extends Schema.Component {
-  collectionName: 'components_about_content_post_list_items';
+  collectionName: "components_about_content_post_list_items";
   info: {
-    displayName: 'postListItems';
-    description: '';
+    displayName: "postListItems";
+    description: "";
   };
   attributes: {
     text: Attribute.Text & Attribute.Required;
@@ -159,10 +159,10 @@ export interface AboutContentPostListItems extends Schema.Component {
 }
 
 export interface AboutContentMotivationContent extends Schema.Component {
-  collectionName: 'components_about_content_motivation_contents';
+  collectionName: "components_about_content_motivation_contents";
   info: {
-    displayName: 'motivationContent';
-    description: '';
+    displayName: "motivationContent";
+    description: "";
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
@@ -171,10 +171,10 @@ export interface AboutContentMotivationContent extends Schema.Component {
 }
 
 export interface AboutContentItemCategoryContent extends Schema.Component {
-  collectionName: 'components_about_content_item_category_contents';
+  collectionName: "components_about_content_item_category_contents";
   info: {
-    displayName: 'itemCategoryContent';
-    description: '';
+    displayName: "itemCategoryContent";
+    description: "";
   };
   attributes: {
     tag: Attribute.String & Attribute.Required;
@@ -190,10 +190,10 @@ export interface AboutContentItemCategoryContent extends Schema.Component {
 
 export interface AboutContentItemCategoryContentReverse
   extends Schema.Component {
-  collectionName: 'components_about_content_item_category_content_reverses';
+  collectionName: "components_about_content_item_category_content_reverses";
   info: {
-    displayName: 'itemCategoryContentReverse';
-    description: '';
+    displayName: "itemCategoryContentReverse";
+    description: "";
   };
   attributes: {
     tag: Attribute.String & Attribute.Required;
@@ -206,10 +206,10 @@ export interface AboutContentItemCategoryContentReverse
 }
 
 export interface AboutContentIntroContent extends Schema.Component {
-  collectionName: 'components_about_content_intro_contents';
+  collectionName: "components_about_content_intro_contents";
   info: {
-    displayName: 'introContent';
-    description: '';
+    displayName: "introContent";
+    description: "";
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
@@ -218,11 +218,11 @@ export interface AboutContentIntroContent extends Schema.Component {
 }
 
 export interface AboutContentHeadingContent extends Schema.Component {
-  collectionName: 'components_about_content_heading_contents';
+  collectionName: "components_about_content_heading_contents";
   info: {
-    displayName: 'headingContent';
-    icon: 'apps';
-    description: '';
+    displayName: "headingContent";
+    icon: "apps";
+    description: "";
   };
   attributes: {
     title: Attribute.String & Attribute.Required;
@@ -231,37 +231,37 @@ export interface AboutContentHeadingContent extends Schema.Component {
 }
 
 export interface AboutContentCategoryListItems extends Schema.Component {
-  collectionName: 'components_about_content_category_list_items';
+  collectionName: "components_about_content_category_list_items";
   info: {
-    displayName: 'categoryListItems';
-    description: '';
+    displayName: "categoryListItems";
+    description: "";
   };
   attributes: {
     text: Attribute.Text & Attribute.Required;
   };
 }
 
-declare module '@strapi/types' {
+declare module "@strapi/types" {
   export module Shared {
     export interface Components {
-      'category-content.section-content': CategoryContentSectionContent;
-      'category-content.items-category-content': CategoryContentItemsCategoryContent;
-      'category-content.item-category-content': CategoryContentItemCategoryContent;
-      'category-content.heading-content': CategoryContentHeadingContent;
-      'category-content.faq-content': CategoryContentFaqContent;
-      'category-content.category-list-items': CategoryContentCategoryListItems;
-      'category-content.category-header-content': CategoryContentCategoryHeaderContent;
-      'main.primary-item': MainPrimaryItem;
-      'main.main-test': MainMainTest;
-      'product-info.specification': ProductInfoSpecification;
-      'product-info.review': ProductInfoReview;
-      'about-content.post-list-items': AboutContentPostListItems;
-      'about-content.motivation-content': AboutContentMotivationContent;
-      'about-content.item-category-content': AboutContentItemCategoryContent;
-      'about-content.item-category-content-reverse': AboutContentItemCategoryContentReverse;
-      'about-content.intro-content': AboutContentIntroContent;
-      'about-content.heading-content': AboutContentHeadingContent;
-      'about-content.category-list-items': AboutContentCategoryListItems;
+      "category-content.section-content": CategoryContentSectionContent;
+      "category-content.items-category-content": CategoryContentItemsCategoryContent;
+      "category-content.item-category-content": CategoryContentItemCategoryContent;
+      "category-content.heading-content": CategoryContentHeadingContent;
+      "category-content.faq-content": CategoryContentFaqContent;
+      "category-content.category-list-items": CategoryContentCategoryListItems;
+      "category-content.category-header-content": CategoryContentCategoryHeaderContent;
+      "main.primary-item": MainPrimaryItem;
+      "main.main-test": MainMainTest;
+      "product-info.specification": ProductInfoSpecification;
+      "product-info.review": ProductInfoReview;
+      "about-content.post-list-items": AboutContentPostListItems;
+      "about-content.motivation-content": AboutContentMotivationContent;
+      "about-content.item-category-content": AboutContentItemCategoryContent;
+      "about-content.item-category-content-reverse": AboutContentItemCategoryContentReverse;
+      "about-content.intro-content": AboutContentIntroContent;
+      "about-content.heading-content": AboutContentHeadingContent;
+      "about-content.category-list-items": AboutContentCategoryListItems;
     }
   }
 }
