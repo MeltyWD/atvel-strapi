@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_category_content_category_header_contents",
+  "info": {
+    "displayName": "categoryHeaderContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

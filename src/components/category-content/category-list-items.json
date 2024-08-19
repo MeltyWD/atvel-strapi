@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_category_content_category_list_items",
+  "info": {
+    "displayName": "categoryListItemsReverse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

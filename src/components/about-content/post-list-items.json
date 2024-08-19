@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_content_post_list_items",
+  "info": {
+    "displayName": "postListItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

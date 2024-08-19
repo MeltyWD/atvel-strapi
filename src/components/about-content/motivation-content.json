@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_content_motivation_contents",
+  "info": {
+    "displayName": "motivationContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

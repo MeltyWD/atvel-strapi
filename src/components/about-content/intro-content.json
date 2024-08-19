@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_content_intro_contents",
+  "info": {
+    "displayName": "introContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

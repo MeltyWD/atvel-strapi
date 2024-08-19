@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_content_heading_contents",
+  "info": {
+    "displayName": "headingContent",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

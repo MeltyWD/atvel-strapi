@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_category_content_items_category_contents",
+  "info": {
+    "displayName": "itemsCategoryContent"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string"
+    },
+    "white": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

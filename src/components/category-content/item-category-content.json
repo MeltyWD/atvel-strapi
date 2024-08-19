@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_category_content_item_category_contents",
+  "info": {
+    "displayName": "itemCategoryContentReverse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": false
+    },
+    "white": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

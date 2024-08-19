@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_content_category_list_items",
+  "info": {
+    "displayName": "categoryListItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
