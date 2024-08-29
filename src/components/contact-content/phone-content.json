@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contact_content_phone_contents",
+  "info": {
+    "displayName": "phoneContent"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

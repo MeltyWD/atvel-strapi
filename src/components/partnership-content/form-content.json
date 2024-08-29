@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_partnership_content_form_contents",
+  "info": {
+    "displayName": "formContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "textLabel": {
+      "type": "string",
+      "required": true
+    },
+    "checkboxLabel": {
+      "type": "string",
+      "required": true
+    },
+    "textButton": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

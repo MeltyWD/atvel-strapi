@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vacancy_content_vacancy_contents",
+  "info": {
+    "displayName": "vacancyContent"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

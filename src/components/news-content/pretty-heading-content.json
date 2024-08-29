@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_news_content_pretty_heading_contents",
+  "info": {
+    "displayName": "prettyHeadingContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "full": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

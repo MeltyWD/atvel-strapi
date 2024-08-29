@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partnership_content_spoiler_contents",
+  "info": {
+    "displayName": "spoilerListItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "singularName": "news-page",
+    "pluralName": "news-pages",
+    "displayName": "NewsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headerContent": {
+      "displayName": "headerContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.header-content",
+      "required": true
+    },
+    "prettyHeadingContent": {
+      "displayName": "prettyHeadingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.pretty-heading-content",
+      "required": true
+    },
+    "subscriptionContent": {
+      "displayName": "subscriptionContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.subscription-content",
+      "required": true
+    },
+    "newsPrimaryContent": {
+      "displayName": "newsPrimaryContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.news-primary-content",
+      "required": true
+    },
+    "newsPrimaryListItems": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.news-primary-list-items"
+    },
+    "buttonText": {
+      "displayName": "buttonText",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "news-content.button-text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_partnership_content_heading_contents",
+  "info": {
+    "displayName": "HeadingContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

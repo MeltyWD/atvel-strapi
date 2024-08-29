@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_partnership_content_intro_contents",
+  "info": {
+    "displayName": "introContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

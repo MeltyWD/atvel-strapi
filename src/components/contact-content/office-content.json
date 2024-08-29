@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contact_content_office_contents",
+  "info": {
+    "displayName": "officeContent"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

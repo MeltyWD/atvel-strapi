@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_news_content_button_texts",
+  "info": {
+    "displayName": "buttonText"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

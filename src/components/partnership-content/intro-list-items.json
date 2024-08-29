@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_partnership_content_intro_list_items",
+  "info": {
+    "displayName": "introListItems"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_info_product_links",
+  "info": {
+    "displayName": "product-links",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "marketplace": {
+      "type": "enumeration",
+      "enum": [
+        "Ozon",
+        "Wildberries"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

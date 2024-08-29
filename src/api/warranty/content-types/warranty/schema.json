@@ -1,0 +1,101 @@
+{
+  "kind": "singleType",
+  "collectionName": "warranties",
+  "info": {
+    "singularName": "warranty",
+    "pluralName": "warranties",
+    "displayName": "Warranty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "introContent": {
+      "displayName": "introContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.intro-content",
+      "required": true
+    },
+    "introListItems": {
+      "displayName": "introListItems",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.intro-list-items"
+    },
+    "itemCategoryContentReverse": {
+      "displayName": "itemCategoryContentReverse",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.item-category-content-reverse",
+      "required": true
+    },
+    "categoryListItems": {
+      "displayName": "categoryListItems",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.category-list-items"
+    },
+    "headingContent": {
+      "displayName": "headingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.heading-content",
+      "required": true
+    },
+    "sectionContent": {
+      "displayName": "sectionContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.section-content"
+    },
+    "formContent": {
+      "displayName": "formContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "warranty-content.form-content",
+      "required": true
+    }
+  }
+}

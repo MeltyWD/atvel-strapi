@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_news_content_news_primary_contents",
+  "info": {
+    "displayName": "newsPrimaryContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "linkText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

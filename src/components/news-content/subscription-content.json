@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_news_content_subscription_contents",
+  "info": {
+    "displayName": "subscriptionContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

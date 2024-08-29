@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_vacancy_content_pretty_headings",
+  "info": {
+    "displayName": "prettyHeadingContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "vacancy": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

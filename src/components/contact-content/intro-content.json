@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contact_content_intro_contents",
+  "info": {
+    "displayName": "introContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "lead": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

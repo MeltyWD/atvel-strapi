@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_partnership_content_pretty_heading_contents",
+  "info": {
+    "displayName": "prettyHeadingContent"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

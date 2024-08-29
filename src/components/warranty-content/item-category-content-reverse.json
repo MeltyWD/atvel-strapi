@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_warranty_content_item_category_content_reverses",
+  "info": {
+    "displayName": "itemCategoryContentReverse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "white": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

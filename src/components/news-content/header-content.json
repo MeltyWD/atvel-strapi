@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_news_content_header_contents",
+  "info": {
+    "displayName": "headerContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contact_content_mail_contents",
+  "info": {
+    "displayName": "mailContent"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "mail": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

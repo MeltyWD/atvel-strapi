@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_warranty_content_category_list_items",
+  "info": {
+    "displayName": "categoryListItems"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

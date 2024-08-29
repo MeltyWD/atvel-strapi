@@ -1,0 +1,123 @@
+{
+  "kind": "singleType",
+  "collectionName": "partnerships",
+  "info": {
+    "singularName": "partnership",
+    "pluralName": "partnerships",
+    "displayName": "Partnership",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headingContent": {
+      "displayName": "HeadingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.heading-content",
+      "required": true
+    },
+    "introContent": {
+      "displayName": "introContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.intro-content",
+      "required": true
+    },
+    "introListItems": {
+      "displayName": "introListItems",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.intro-list-items",
+      "required": true
+    },
+    "spoilerListItems": {
+      "displayName": "spoilerContent",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.spoiler-content",
+      "required": true
+    },
+    "sectionContent": {
+      "displayName": "sectionContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.section-content",
+      "required": true
+    },
+    "faqContent": {
+      "displayName": "faqContent",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.faq-content",
+      "required": true
+    },
+    "prettyHeadingContent": {
+      "displayName": "prettyHeadingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.pretty-heading-content",
+      "required": true
+    },
+    "formContent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "partnership-content.form-content"
+    },
+    "partnership": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

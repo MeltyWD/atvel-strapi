@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_news_content_news_primary_list_items",
+  "info": {
+    "displayName": "newsPrimaryListItems"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

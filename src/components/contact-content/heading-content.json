@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contact_content_heading_contents",
+  "info": {
+    "displayName": "headingContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

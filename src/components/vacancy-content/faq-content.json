@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vacancy_content_faq_contents",
+  "info": {
+    "displayName": "faqContent"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

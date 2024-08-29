@@ -20,7 +20,7 @@
     },
     "button": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "white": {
       "type": "boolean",
@@ -30,6 +30,11 @@
     "reverse": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "full": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }

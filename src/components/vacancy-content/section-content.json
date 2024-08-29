@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_vacancy_content_section_contents",
+  "info": {
+    "displayName": "sectionContent"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

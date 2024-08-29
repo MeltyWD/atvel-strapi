@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_warranty_content_section_contents",
+  "info": {
+    "displayName": "sectionContent"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

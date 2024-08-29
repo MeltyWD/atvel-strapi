@@ -1,0 +1,125 @@
+{
+  "kind": "singleType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "Vacancy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headingContent": {
+      "displayName": "headingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.heading-content",
+      "required": true
+    },
+    "introContent": {
+      "displayName": "introContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.intro-content",
+      "required": true
+    },
+    "prettyHeadingContent": {
+      "displayName": "prettyHeading",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.pretty-heading",
+      "required": true
+    },
+    "sectionContent": {
+      "displayName": "sectionContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.section-content",
+      "required": true
+    },
+    "faqContent": {
+      "displayName": "faqContent",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.faq-content"
+    },
+    "stepsListItems": {
+      "displayName": "stepsListItems",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.steps-list-items"
+    },
+    "prettyHeadingVacancyContent": {
+      "displayName": "prettyHeadingVacancyContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.pretty-heading-vacancy-content",
+      "required": true
+    },
+    "vacancyContent": {
+      "displayName": "vacancyContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.vacancy-content"
+    },
+    "formContent": {
+      "displayName": "formContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "vacancy-content.form-content",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_content_form_contents",
+  "info": {
+    "displayName": "formContent"
+  },
+  "options": {},
+  "attributes": {
+    "checkboxLabel": {
+      "type": "string",
+      "required": true
+    },
+    "textButton": {
+      "type": "string",
+      "required": true
+    },
+    "empty": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

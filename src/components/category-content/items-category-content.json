@@ -1,7 +1,8 @@
 {
   "collectionName": "components_category_content_items_category_contents",
   "info": {
-    "displayName": "itemsCategoryContent"
+    "displayName": "itemsCategoryContent",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -28,6 +29,11 @@
     "reverse": {
       "type": "boolean",
       "default": false,
+      "required": true
+    },
+    "full": {
+      "type": "boolean",
+      "default": true,
       "required": true
     }
   }

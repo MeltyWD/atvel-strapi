@@ -1,0 +1,104 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "headingContent": {
+      "displayName": "headingContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.heading-content",
+      "required": true
+    },
+    "introContent": {
+      "displayName": "introContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.intro-content",
+      "required": true
+    },
+    "sectionContent": {
+      "displayName": "sectionContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.section-content",
+      "required": true
+    },
+    "phoneContent": {
+      "displayName": "phoneContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.phone-content",
+      "required": true
+    },
+    "mailContent": {
+      "displayName": "mailContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.mail-content",
+      "required": true
+    },
+    "officeContent": {
+      "displayName": "officeContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.office-content",
+      "required": true
+    },
+    "formContent": {
+      "displayName": "formContent",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "contact-content.form-content",
+      "required": true
+    }
+  }
+}
